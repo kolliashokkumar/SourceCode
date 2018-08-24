@@ -1,0 +1,9 @@
+---
+applications:
+- name: Demo_Sample_app_Java_Test
+  memory: 1GB #The maximum memory to allocate to each application instance
+  instances: 1 #The number of instances of the application to start
+  path: pivotal-sample-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  
+
